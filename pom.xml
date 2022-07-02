@@ -110,6 +110,7 @@
       <artifactId>spring-boot-devtools</artifactId>
       <optional>true</optional>
     </dependency>
+
   </dependencies>
 
   <build>
@@ -224,7 +225,26 @@
           <failOnUnableToExtractRepoInfo>false</failOnUnableToExtractRepoInfo>
         </configuration>
       </plugin>
-
+      <plugin>
+        <groupId>org.pitest</groupId>
+        <artifactId>pitest-maven</artifactId>
+        <version>1.9.0</version>
+        <dependencies>
+          <dependency>
+            <groupId>org.pitest</groupId>
+            <artifactId>pitest-junit5-plugin</artifactId>
+            <version>1.0.0</version>
+          </dependency>
+        </dependencies>
+        <configuration>
+          <targetClasses>
+            <param>org.springframework.samples.petclinic*</param>
+          </targetClasses>
+          <targetTests>
+            <param>org.springframework.samples.petclinic*</param>
+          </targetTests>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
 
