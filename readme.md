@@ -10,22 +10,22 @@ The code is automatically seeded with errors (or mutations), and then the tests 
 The percentage of mutations killed can be used to evaluate the effectiveness of your tests.
 
 ### Steps to execute mutation coverage goal analysis
-1. Clone the project
+1. *Clone the project*
 
 ```git clone git@github.com:kapilkanur/spring-petclinic-mutation-testing.git```
 
-2. Run the mvn command
+2. *Run the mvn command*
 
 ```mvn test-compile org.pitest:pitest-maven:mutationCoverage```
 
 The output can be found at target/pit-reports/YYYYMMDDHHMI. I have uploaded the sample output at [Sample PIT reports](/src/main/resources/sample/pit-reports/202207031137)
 
-3. PIT Test Coverage Report
+3. *PIT Test Coverage Report*
 
  ![PIT test coverage report](/src/main/resources/static/resources/images/pit-test-report.png)
 
 
-4. Sample Output
+4. *Sample Output*
 ```
 11:37:38 am PIT >> INFO : Created  16 mutation test units
 /
