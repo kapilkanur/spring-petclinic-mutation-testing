@@ -1,7 +1,7 @@
 # Mutation testing with PIT 
 
 ## Running PetClinic application locally
-Follow the readme [petclinic_readme](/readme.md) to run Spring PetClinic Application locally.
+Follow the readme [petclinic_readme](/petclinic_readme.md) to run Spring PetClinic Application locally.
 
 ## Mutation Testing
 
