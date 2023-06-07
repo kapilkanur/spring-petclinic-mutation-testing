@@ -12,7 +12,7 @@ The percentage of mutations killed can be used to evaluate the effectiveness of 
 ### Steps to execute mutation coverage goal analysis
 1. *Clone the project*
 
-```git clone git@github.com:kapilkanur/spring-petclinic-mutation-testing.git```
+```git clone git@github.com:kapilkanur/spring-petclinic-testing.git```
 
 2. *Run the mvn command*
 
